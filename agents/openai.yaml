@@ -1,0 +1,13 @@
+interface:
+  display_name: 口播写作与剪辑
+  short_description: 结合真实教程证据与原创视觉参考，设计口播稿、字幕排版和剪辑方案
+  default_prompt: 用 $write-edit-talking-head 优化我的口播稿；需要排版时先查看相关视觉参考，再给出适合素材与画幅的字幕和剪辑方案。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
